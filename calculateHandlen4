@@ -1,0 +1,12 @@
+def calculateHandlen(hand):
+    """ 
+    Returns the length (number of letters) in the current hand.
+    
+    hand: dictionary (string int)
+    returns: integer
+    """
+    v = 0
+    valueList = hand.values()
+    for l in valueList:
+        v += l
+    return v
